@@ -16,6 +16,7 @@ const Register = ({setUser}) => {
               username,
               email,
               password
+              
             })
             localStorage.setItem("token", data.token)
             setUser(data);
