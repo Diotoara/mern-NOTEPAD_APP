@@ -52,7 +52,7 @@ const Home = () => {
 
   return (
     <div className='container mx-auto px-4 py-8 min-h-screen bg-gray-500'>
-      {error && <p className='text-red-400 mb-4'>{error}</p>}
+      {error && <p className=' bg-amber-300 rounded-2xl text-red-800 mb-4'>{error}</p>}
       {
         isModalOpen ? 
         <NoteModal setNote={setNotes} setModal={setIsModalOPen}/> : 
